@@ -4,9 +4,9 @@
 2.ส่วนตัวผมคิดว่า การทำ version control สามารถใช้ได้ทั้ง 2 อย่าง ทั้ง git&github หรือ CVS หรือ SVN เพราะ ทั้งสองตัวนี้มีการทำงานที่แตกต่างกัน เพราะ SVN นั้น จะเรียกว่าการ Commitงจากที่ commit ไปแล้วไฟล์เหล่านั้นก็จะอยู่ใน repository ทันที ถ้าเป็น git การ commit จะเป็นการเก็บอยู่ใน local ก่อน แล้วค่อยๆ commit ทีละส่วน แล้วค่อย push ขึ้น repository ก็ได้
 
 3.git init
-  git add feature1 
-  git commit -m "work feature1" 
-  git push origin master
+  ->git add feature1 
+  ->git commit -m "work feature1" 
+  ->git push origin master
 
 4.ใช่ ในการ merge ทุกครั้งต้องมีการเกิดการ conflict แน่นอน เพราะ เป็นการนำเอาโค้ดของคนในทีมมาแปะไว้ที่เดียวกัน เมื่อทำการ merge ก็จะเกิด conflict เสมอ 
 
